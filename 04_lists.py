@@ -89,6 +89,6 @@ print(my_new_list[1:3])
 
 # Cambio de tipo
 
-my_list = "Hola Python"
+my_list = "hola gente "
 print(my_list)
 print(type(my_list))
