@@ -1,0 +1,26 @@
+import random
+
+Nombres = ["lorenzo ", "gabo ", "mark", "martin ", "odin ", "oscar", "javier", "akiles", "norberto", "jesus"]
+Razas = ["Mago", "Centauro", "Hombre Lobo", "Fantasma", "Gigante", "humano", "semidios ", "dios ", "Duende", "Elfo"]
+Especilidades = ["macumbero", "Pociones", "futbolista", "boxeador", "cientifico", "Adivinación", "alzehimer", "dormir", "Metamorfomagia", ""]
+
+opcionesNombre = random.randint(0, 9)
+Nombre = Nombres[opcionesNombre]
+print(f"El nombre de su personaje es: {Nombre}")
+
+opcionesRaza = random.randint(0, 9)
+Raza = Razas[opcionesRaza]
+print(f"Su raza es: {Raza}")
+
+opcionesEspecialidad = random.randint(0, 9)
+Especilidad = Especilidades[opcionesEspecialidad]
+print(f"Su especialidad es: {Especilidad}")
+
+vida = random.randint(50, 100)
+print(f"Tiene: {vida}% de vida")
+
+ataque = random.randint(10, 50)
+print(f"Tiene: {ataque}% de ataque")
+
+defensa = random.randint(5, 30)
+print(f"Y tiene: {defensa}% de defensa")
